@@ -301,15 +301,16 @@ idleAtCameraPosition:(GMSCameraPosition *)position {
             } else {
                 weakSelf.imageActivityIndicator.hidden = YES;
             }
-            
-            weakSelf.venueTitleLabel.text = venue.name;
-            weakSelf.venueAddressLabel.text = venue.location.address;
-            weakSelf.venueTypeLabel.text = ((csCategories *)venue.categories[0]).name;
-            
-            [UIView transitionWithView:weakSelf.venueHolderView duration:0.4 options:UIViewAnimationOptionTransitionFlipFromTop animations:^(void){
-                [weakSelf.venueHolderView setHidden:NO];
-            } completion:nil];
         }
+        
+        weakSelf.venueTitleLabel.text = venue.name;
+        weakSelf.venueAddressLabel.text = venue.location.address;
+        weakSelf.venueTypeLabel.text = ((csCategories *)venue.categories[0]).name;
+        
+        [UIView transitionWithView:weakSelf.venueHolderView duration:0.4 options:UIViewAnimationOptionTransitionFlipFromTop animations:^(void){
+            [weakSelf.venueHolderView setHidden:NO];
+        } completion:nil];
+        
         
     } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
         
