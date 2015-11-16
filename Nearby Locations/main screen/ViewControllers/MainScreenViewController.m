@@ -286,12 +286,10 @@ idleAtCameraPosition:(GMSCameraPosition *)position {
             weakSelf.ratingLabel.text = ratingText;
         }
         
+        weakSelf.venueImage.image = nil;
         if ([((NSArray *)((NSDictionary *)responseObject)[@"response"][@"venue"][@"photos"][@"groups"]) count]>0) {
-            
-            
             NSDictionary *photos = ((NSDictionary *)responseObject)[@"response"][@"venue"][@"photos"][@"groups"][0];
             
-            weakSelf.venueImage.image = nil;
             weakSelf.imageActivityIndicator.hidden = NO;
             if ([(NSArray *)photos[@"items"] count] > 0) {
                 NSString *photoPath = [NSString stringWithFormat:@"%@%ix%i%@", photos[@"items"][0][@"prefix"], (int)[UIScreen mainScreen].scale * 104, (int)[UIScreen mainScreen].scale * 104, photos[@"items"][0][@"suffix"]];
