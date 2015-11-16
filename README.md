@@ -3,7 +3,7 @@
 INTRODUCTION
 ------------
 
-* To run in open the project root folder from terminal and pod install
+* To run it open the project root folder from terminal and pod install
 
 * Open the "Nearby Locations.xcworkspace" file to open the project
 
