@@ -276,6 +276,7 @@ idleAtCameraPosition:(GMSCameraPosition *)position {
 -(void)showVenue:(csVenues *)venue
 {
     __weak typeof(self) weakSelf = self;
+    weakSelf.ratingView.hidden = YES;
     [[NetworkHelper sharedInstance] GET:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/%@", venue.venuesIdentifier] parameters:@{@"client_id" : @"HUIHCWQQUGCRFQTE05AQQUCYSAKIPICTIQ0KIJOTTGMZNU1M", @"client_secret":@"N0YV0YSE4YWS4GR2PXASIFIJCJLRVLWLUH2WEFD1JOV1BP23", @"v":@"20151115"} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
         NSLog(@"%@", ((NSDictionary *)responseObject)[@"response"][@"venue"]);
         
