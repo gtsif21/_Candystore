@@ -119,8 +119,8 @@
 {
     __weak typeof(self) weakSelf = self;
     if([self fetchedLocation]) {
-        NSString *path = [NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?ll=%f,%f&oauth_token=4NPLHLFHN4XMEZVXSTEUCCHWUNDB51T0UASR01QKQMLSJFTM&v=20151115&limit=10", location.latitude, location.longitude];//&categoryId=4bf58dd8d48988d1d0941735,4bf58dd8d48988d117951735,52f2ab2ebcbc57f1066b8b31
-        [[NetworkHelper sharedInstance] GET:path parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+        NSString *path = [NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?ll=%f,%f&v=20151115&limit=10", location.latitude, location.longitude];//&categoryId=4bf58dd8d48988d1d0941735,4bf58dd8d48988d117951735,52f2ab2ebcbc57f1066b8b31
+        [[NetworkHelper sharedInstance] GET:path parameters:@{@"client_id" : @"HUIHCWQQUGCRFQTE05AQQUCYSAKIPICTIQ0KIJOTTGMZNU1M", @"client_secret":@"N0YV0YSE4YWS4GR2PXASIFIJCJLRVLWLUH2WEFD1JOV1BP23", @"v":@"20151115"} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
             if ([responseObject isKindOfClass:[NSDictionary class]]) {
                 csFoursquare *foursquareResponse = [csFoursquare modelObjectWithDictionary:(NSDictionary *)responseObject];
                 weakSelf.venues = foursquareResponse.response.venues;
@@ -276,7 +276,7 @@ idleAtCameraPosition:(GMSCameraPosition *)position {
 -(void)showVenue:(csVenues *)venue
 {
     __weak typeof(self) weakSelf = self;
-    [[NetworkHelper sharedInstance] GET:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/%@", venue.venuesIdentifier] parameters:@{@"oauth_token" : @"4NPLHLFHN4XMEZVXSTEUCCHWUNDB51T0UASR01QKQMLSJFTM", @"v":@"20151115"} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+    [[NetworkHelper sharedInstance] GET:[NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/%@", venue.venuesIdentifier] parameters:@{@"client_id" : @"HUIHCWQQUGCRFQTE05AQQUCYSAKIPICTIQ0KIJOTTGMZNU1M", @"client_secret":@"N0YV0YSE4YWS4GR2PXASIFIJCJLRVLWLUH2WEFD1JOV1BP23", @"v":@"20151115"} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
         NSLog(@"%@", ((NSDictionary *)responseObject)[@"response"][@"venue"]);
         
         NSString *ratingText = [NSString stringWithFormat:@"%@",((NSDictionary *)responseObject)[@"response"][@"venue"][@"rating"]];
