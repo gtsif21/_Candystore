@@ -2,7 +2,6 @@
 //  FSConverter.h
 //  Foursquare2-iOS
 //
-//  Created by Constantine Fry on 2/7/13.
 //
 //
 

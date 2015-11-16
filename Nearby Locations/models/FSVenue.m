@@ -2,8 +2,6 @@
 //  VenueAnnotation.m
 //  Foursquare2-iOS
 //
-//  Created by Constantine Fry on 1/21/13.
-//
 //
 
 #import "FSVenue.h"
@@ -48,7 +46,7 @@
 
 -(NSString *)getThePhotoWithWidth:(CGFloat)width completion:(void(^)(UIImage *image, NSString *error, NSString *verification))callback
 {
-    //let's check if a photo  exists DISCLAIMER: i am high a little bit //[@"groups"][0][@"items"][0][@"suffix"]
+    //let's check if a photo  exists //[@"groups"][0][@"items"][0][@"suffix"]
     if ([self.photos[@"count"] integerValue] > 0) {
         NSDictionary *photo = self.photos[@"groups"][0][@"items"][0];
         NSString *prefix = photo[@"prefix"];

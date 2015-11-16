@@ -2,7 +2,7 @@
 //  Nearby_LocationsTests.m
 //  Nearby LocationsTests
 //
-//  Created by George Tsifrikas on 14/11/15.
+//  Created by George Tsifrikas on 16/11/15.
 //  Copyright © 2015 George Tsifrikas. All rights reserved.
 //
 

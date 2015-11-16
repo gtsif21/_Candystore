@@ -7,6 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@import GoogleMaps;
+#import "NetworkHelper.h"
+#import "DataModels.h"
+#import "Tools.h"
+@import SwiftSpinner;
+@import INTULocationManager;
+@import SDWebImage;
 
 @interface MainScreenViewController : UIViewController
 

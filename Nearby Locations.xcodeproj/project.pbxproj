@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DB7868DF24601DB2CB12FD /* Pods_Nearby_LocationsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB4A9BBBD81D3311EE7F390 /* Pods_Nearby_LocationsUITests.framework */; };
 		4A7FC5901BF770FA00EA45A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC58F1BF770FA00EA45A4 /* main.m */; };
 		4A7FC5931BF770FA00EA45A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5921BF770FA00EA45A4 /* AppDelegate.m */; };
-		4A7FC5961BF770FA00EA45A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5951BF770FA00EA45A4 /* ViewController.m */; };
 		4A7FC5991BF770FA00EA45A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FC5971BF770FA00EA45A4 /* Main.storyboard */; };
 		4A7FC59B1BF770FA00EA45A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FC59A1BF770FA00EA45A4 /* Assets.xcassets */; };
 		4A7FC59E1BF770FA00EA45A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FC59C1BF770FA00EA45A4 /* LaunchScreen.storyboard */; };
-		4A7FC5A91BF770FB00EA45A4 /* Nearby_LocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5A81BF770FB00EA45A4 /* Nearby_LocationsTests.m */; };
 		4A7FC5B41BF770FB00EA45A4 /* Nearby_LocationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5B31BF770FB00EA45A4 /* Nearby_LocationsUITests.m */; };
+		4A7FC5C51BF7764F00EA45A4 /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5C41BF7764F00EA45A4 /* MainScreenViewController.m */; };
+		4A7FC5C91BF7870600EA45A4 /* SelectVenueBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5C81BF7870600EA45A4 /* SelectVenueBackgroundView.m */; };
+		4A7FC5CC1BF7898700EA45A4 /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5CB1BF7898700EA45A4 /* RoundView.m */; };
+		4A7FC5D01BF8D2EB00EA45A4 /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5CF1BF8D2EB00EA45A4 /* NetworkHelper.m */; };
+		4A7FC5D61BF8DEF000EA45A4 /* FSConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5D31BF8DEF000EA45A4 /* FSConverter.m */; };
+		4A7FC5D71BF8DEF000EA45A4 /* FSVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5D51BF8DEF000EA45A4 /* FSVenue.m */; };
+		4A7FC5F71BF8E23A00EA45A4 /* csCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5D91BF8E23A00EA45A4 /* csCategories.m */; };
+		4A7FC5F81BF8E23A00EA45A4 /* csContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5DB1BF8E23A00EA45A4 /* csContact.m */; };
+		4A7FC5F91BF8E23A00EA45A4 /* csFoursquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5DD1BF8E23A00EA45A4 /* csFoursquare.m */; };
+		4A7FC5FA1BF8E23A00EA45A4 /* csGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5DF1BF8E23A00EA45A4 /* csGroups.m */; };
+		4A7FC5FB1BF8E23A00EA45A4 /* csHereNow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5E11BF8E23A00EA45A4 /* csHereNow.m */; };
+		4A7FC5FC1BF8E23A00EA45A4 /* csIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5E31BF8E23A00EA45A4 /* csIcon.m */; };
+		4A7FC5FD1BF8E23A00EA45A4 /* csItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5E51BF8E23A00EA45A4 /* csItem.m */; };
+		4A7FC5FE1BF8E23A00EA45A4 /* csLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5E71BF8E23A00EA45A4 /* csLocation.m */; };
+		4A7FC5FF1BF8E23A00EA45A4 /* csMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5E91BF8E23A00EA45A4 /* csMeta.m */; };
+		4A7FC6001BF8E23A00EA45A4 /* csNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5EB1BF8E23A00EA45A4 /* csNotifications.m */; };
+		4A7FC6011BF8E23A00EA45A4 /* csResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5ED1BF8E23A00EA45A4 /* csResponse.m */; };
+		4A7FC6021BF8E23A00EA45A4 /* csSpecials.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5EF1BF8E23A00EA45A4 /* csSpecials.m */; };
+		4A7FC6031BF8E23A00EA45A4 /* csStats.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5F11BF8E23A00EA45A4 /* csStats.m */; };
+		4A7FC6041BF8E23A00EA45A4 /* csVenueChains.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5F31BF8E23A00EA45A4 /* csVenueChains.m */; };
+		4A7FC6051BF8E23A00EA45A4 /* csVenues.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC5F51BF8E23A00EA45A4 /* csVenues.m */; };
+		4A7FC6091BF8E26800EA45A4 /* NSString+Stuff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC6081BF8E26800EA45A4 /* NSString+Stuff.m */; };
+		4A7FC60D1BF9231C00EA45A4 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC60C1BF9231C00EA45A4 /* Tools.m */; };
+		4A7FC6181BF95A8B00EA45A4 /* Nearby_LocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC6171BF95A8B00EA45A4 /* Nearby_LocationsTests.m */; };
+		4A7FC61F1BF95AA700EA45A4 /* MainScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FC60F1BF956ED00EA45A4 /* MainScreenTests.m */; };
+		7F863FEAF7FCA41522FF78DB /* Pods_Nearby_LocationsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C509C006D1C3F07841A604E /* Pods_Nearby_LocationsTests.framework */; };
+		CC99F02012657E966FB89C60 /* Pods_Nearby_Locations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3607E68C0D3E4ACFDD66D1 /* Pods_Nearby_Locations.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4A7FC5A51BF770FB00EA45A4 /* PBXContainerItemProxy */ = {
+		4A7FC5B01BF770FB00EA45A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A7FC5831BF770FA00EA45A4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4A7FC58A1BF770FA00EA45A4;
 			remoteInfo = "Nearby Locations";
 		};
-		4A7FC5B01BF770FB00EA45A4 /* PBXContainerItemProxy */ = {
+		4A7FC61A1BF95A8B00EA45A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4A7FC5831BF770FA00EA45A4 /* Project object */;
 			proxyType = 1;
@@ -35,22 +61,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AED3B8D311C571A55E2F17E /* Pods-Nearby LocationsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nearby LocationsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nearby LocationsUITests/Pods-Nearby LocationsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0DB4A9BBBD81D3311EE7F390 /* Pods_Nearby_LocationsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nearby_LocationsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C509C006D1C3F07841A604E /* Pods_Nearby_LocationsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nearby_LocationsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A4C0E1C9E13ACD20D02492 /* Pods-Nearby LocationsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nearby LocationsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nearby LocationsTests/Pods-Nearby LocationsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4A7FC58B1BF770FA00EA45A4 /* Nearby Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nearby Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7FC58F1BF770FA00EA45A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A7FC5911BF770FA00EA45A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A7FC5921BF770FA00EA45A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4A7FC5941BF770FA00EA45A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4A7FC5951BF770FA00EA45A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4A7FC5981BF770FA00EA45A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A7FC59A1BF770FA00EA45A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A7FC59D1BF770FA00EA45A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A7FC59F1BF770FA00EA45A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A7FC5A41BF770FB00EA45A4 /* Nearby LocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nearby LocationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7FC5A81BF770FB00EA45A4 /* Nearby_LocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nearby_LocationsTests.m; sourceTree = "<group>"; };
 		4A7FC5AA1BF770FB00EA45A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7FC5AF1BF770FB00EA45A4 /* Nearby LocationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nearby LocationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7FC5B31BF770FB00EA45A4 /* Nearby_LocationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nearby_LocationsUITests.m; sourceTree = "<group>"; };
 		4A7FC5B51BF770FB00EA45A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A7FC5C31BF7764F00EA45A4 /* MainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		4A7FC5C41BF7764F00EA45A4 /* MainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		4A7FC5C71BF7870600EA45A4 /* SelectVenueBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectVenueBackgroundView.h; sourceTree = "<group>"; };
+		4A7FC5C81BF7870600EA45A4 /* SelectVenueBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectVenueBackgroundView.m; sourceTree = "<group>"; };
+		4A7FC5CA1BF7898700EA45A4 /* RoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView.h; sourceTree = "<group>"; };
+		4A7FC5CB1BF7898700EA45A4 /* RoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView.m; sourceTree = "<group>"; };
+		4A7FC5CE1BF8D2EB00EA45A4 /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		4A7FC5CF1BF8D2EB00EA45A4 /* NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		4A7FC5D21BF8DEF000EA45A4 /* FSConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSConverter.h; sourceTree = "<group>"; };
+		4A7FC5D31BF8DEF000EA45A4 /* FSConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSConverter.m; sourceTree = "<group>"; };
+		4A7FC5D41BF8DEF000EA45A4 /* FSVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSVenue.h; sourceTree = "<group>"; };
+		4A7FC5D51BF8DEF000EA45A4 /* FSVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSVenue.m; sourceTree = "<group>"; };
+		4A7FC5D81BF8E23A00EA45A4 /* csCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csCategories.h; sourceTree = "<group>"; };
+		4A7FC5D91BF8E23A00EA45A4 /* csCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csCategories.m; sourceTree = "<group>"; };
+		4A7FC5DA1BF8E23A00EA45A4 /* csContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csContact.h; sourceTree = "<group>"; };
+		4A7FC5DB1BF8E23A00EA45A4 /* csContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csContact.m; sourceTree = "<group>"; };
+		4A7FC5DC1BF8E23A00EA45A4 /* csFoursquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csFoursquare.h; sourceTree = "<group>"; };
+		4A7FC5DD1BF8E23A00EA45A4 /* csFoursquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csFoursquare.m; sourceTree = "<group>"; };
+		4A7FC5DE1BF8E23A00EA45A4 /* csGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csGroups.h; sourceTree = "<group>"; };
+		4A7FC5DF1BF8E23A00EA45A4 /* csGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csGroups.m; sourceTree = "<group>"; };
+		4A7FC5E01BF8E23A00EA45A4 /* csHereNow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csHereNow.h; sourceTree = "<group>"; };
+		4A7FC5E11BF8E23A00EA45A4 /* csHereNow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csHereNow.m; sourceTree = "<group>"; };
+		4A7FC5E21BF8E23A00EA45A4 /* csIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csIcon.h; sourceTree = "<group>"; };
+		4A7FC5E31BF8E23A00EA45A4 /* csIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csIcon.m; sourceTree = "<group>"; };
+		4A7FC5E41BF8E23A00EA45A4 /* csItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csItem.h; sourceTree = "<group>"; };
+		4A7FC5E51BF8E23A00EA45A4 /* csItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csItem.m; sourceTree = "<group>"; };
+		4A7FC5E61BF8E23A00EA45A4 /* csLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csLocation.h; sourceTree = "<group>"; };
+		4A7FC5E71BF8E23A00EA45A4 /* csLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csLocation.m; sourceTree = "<group>"; };
+		4A7FC5E81BF8E23A00EA45A4 /* csMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csMeta.h; sourceTree = "<group>"; };
+		4A7FC5E91BF8E23A00EA45A4 /* csMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csMeta.m; sourceTree = "<group>"; };
+		4A7FC5EA1BF8E23A00EA45A4 /* csNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csNotifications.h; sourceTree = "<group>"; };
+		4A7FC5EB1BF8E23A00EA45A4 /* csNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csNotifications.m; sourceTree = "<group>"; };
+		4A7FC5EC1BF8E23A00EA45A4 /* csResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csResponse.h; sourceTree = "<group>"; };
+		4A7FC5ED1BF8E23A00EA45A4 /* csResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csResponse.m; sourceTree = "<group>"; };
+		4A7FC5EE1BF8E23A00EA45A4 /* csSpecials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csSpecials.h; sourceTree = "<group>"; };
+		4A7FC5EF1BF8E23A00EA45A4 /* csSpecials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csSpecials.m; sourceTree = "<group>"; };
+		4A7FC5F01BF8E23A00EA45A4 /* csStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csStats.h; sourceTree = "<group>"; };
+		4A7FC5F11BF8E23A00EA45A4 /* csStats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csStats.m; sourceTree = "<group>"; };
+		4A7FC5F21BF8E23A00EA45A4 /* csVenueChains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csVenueChains.h; sourceTree = "<group>"; };
+		4A7FC5F31BF8E23A00EA45A4 /* csVenueChains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csVenueChains.m; sourceTree = "<group>"; };
+		4A7FC5F41BF8E23A00EA45A4 /* csVenues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = csVenues.h; sourceTree = "<group>"; };
+		4A7FC5F51BF8E23A00EA45A4 /* csVenues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = csVenues.m; sourceTree = "<group>"; };
+		4A7FC5F61BF8E23A00EA45A4 /* DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModels.h; sourceTree = "<group>"; };
+		4A7FC6071BF8E26800EA45A4 /* NSString+Stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Stuff.h"; sourceTree = "<group>"; };
+		4A7FC6081BF8E26800EA45A4 /* NSString+Stuff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Stuff.m"; sourceTree = "<group>"; };
+		4A7FC60B1BF9231C00EA45A4 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		4A7FC60C1BF9231C00EA45A4 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		4A7FC60E1BF956ED00EA45A4 /* MainScreenTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreenTests.h; sourceTree = "<group>"; };
+		4A7FC60F1BF956ED00EA45A4 /* MainScreenTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreenTests.m; sourceTree = "<group>"; };
+		4A7FC6151BF95A8A00EA45A4 /* Nearby LocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nearby LocationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7FC6171BF95A8B00EA45A4 /* Nearby_LocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nearby_LocationsTests.m; sourceTree = "<group>"; };
+		4A7FC6191BF95A8B00EA45A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571C8EE7735F5AFDA7C9C9F2 /* Pods-Nearby Locations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nearby Locations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nearby Locations/Pods-Nearby Locations.debug.xcconfig"; sourceTree = "<group>"; };
+		5CDC77B8C9806811C9381833 /* Pods-Nearby Locations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nearby Locations.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nearby Locations/Pods-Nearby Locations.release.xcconfig"; sourceTree = "<group>"; };
+		87D952138D3BE6A3D8C96E5E /* Pods-Nearby LocationsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nearby LocationsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nearby LocationsUITests/Pods-Nearby LocationsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D3607E68C0D3E4ACFDD66D1 /* Pods_Nearby_Locations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nearby_Locations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24D09808804C3F34A4F3613 /* Pods-Nearby LocationsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nearby LocationsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nearby LocationsTests/Pods-Nearby LocationsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A7FC5A11BF770FB00EA45A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CC99F02012657E966FB89C60 /* Pods_Nearby_Locations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +150,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DB7868DF24601DB2CB12FD /* Pods_Nearby_LocationsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A7FC6121BF95A8A00EA45A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F863FEAF7FCA41522FF78DB /* Pods_Nearby_LocationsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +171,10 @@
 				4A7FC58D1BF770FA00EA45A4 /* Nearby Locations */,
 				4A7FC5A71BF770FB00EA45A4 /* Nearby LocationsTests */,
 				4A7FC5B21BF770FB00EA45A4 /* Nearby LocationsUITests */,
+				4A7FC6161BF95A8B00EA45A4 /* Nearby LocationsTests */,
 				4A7FC58C1BF770FA00EA45A4 /* Products */,
+				B14C2C298D2F093647B5678F /* Pods */,
+				E68E1E3DAC255C9FC2120EBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,8 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				4A7FC58B1BF770FA00EA45A4 /* Nearby Locations.app */,
-				4A7FC5A41BF770FB00EA45A4 /* Nearby LocationsTests.xctest */,
 				4A7FC5AF1BF770FB00EA45A4 /* Nearby LocationsUITests.xctest */,
+				4A7FC6151BF95A8A00EA45A4 /* Nearby LocationsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +191,12 @@
 		4A7FC58D1BF770FA00EA45A4 /* Nearby Locations */ = {
 			isa = PBXGroup;
 			children = (
+				4A7FC6061BF8E24900EA45A4 /* Categories */,
+				4A7FC5D11BF8DEDC00EA45A4 /* models */,
+				4A7FC5CD1BF8D2B500EA45A4 /* helpers */,
+				4A7FC5C11BF7760B00EA45A4 /* main screen */,
 				4A7FC5911BF770FA00EA45A4 /* AppDelegate.h */,
 				4A7FC5921BF770FA00EA45A4 /* AppDelegate.m */,
-				4A7FC5941BF770FA00EA45A4 /* ViewController.h */,
-				4A7FC5951BF770FA00EA45A4 /* ViewController.m */,
 				4A7FC5971BF770FA00EA45A4 /* Main.storyboard */,
 				4A7FC59A1BF770FA00EA45A4 /* Assets.xcassets */,
 				4A7FC59C1BF770FA00EA45A4 /* LaunchScreen.storyboard */,
@@ -127,6 +219,7 @@
 			children = (
 				4A7FC5A81BF770FB00EA45A4 /* Nearby_LocationsTests.m */,
 				4A7FC5AA1BF770FB00EA45A4 /* Info.plist */,
+				4A7FC60E1BF956ED00EA45A4 /* MainScreenTests.h */,
 			);
 			path = "Nearby LocationsTests";
 			sourceTree = "<group>";
@@ -140,6 +233,138 @@
 			path = "Nearby LocationsUITests";
 			sourceTree = "<group>";
 		};
+		4A7FC5C11BF7760B00EA45A4 /* main screen */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC5C61BF786DA00EA45A4 /* Views */,
+				4A7FC5C21BF7761600EA45A4 /* ViewControllers */,
+			);
+			path = "main screen";
+			sourceTree = "<group>";
+		};
+		4A7FC5C21BF7761600EA45A4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC5C31BF7764F00EA45A4 /* MainScreenViewController.h */,
+				4A7FC5C41BF7764F00EA45A4 /* MainScreenViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4A7FC5C61BF786DA00EA45A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC5C71BF7870600EA45A4 /* SelectVenueBackgroundView.h */,
+				4A7FC5C81BF7870600EA45A4 /* SelectVenueBackgroundView.m */,
+				4A7FC5CA1BF7898700EA45A4 /* RoundView.h */,
+				4A7FC5CB1BF7898700EA45A4 /* RoundView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A7FC5CD1BF8D2B500EA45A4 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC5CE1BF8D2EB00EA45A4 /* NetworkHelper.h */,
+				4A7FC5CF1BF8D2EB00EA45A4 /* NetworkHelper.m */,
+				4A7FC60B1BF9231C00EA45A4 /* Tools.h */,
+				4A7FC60C1BF9231C00EA45A4 /* Tools.m */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		4A7FC5D11BF8DEDC00EA45A4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC60A1BF8F06400EA45A4 /* Venues */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4A7FC6061BF8E24900EA45A4 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC6071BF8E26800EA45A4 /* NSString+Stuff.h */,
+				4A7FC6081BF8E26800EA45A4 /* NSString+Stuff.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4A7FC60A1BF8F06400EA45A4 /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC5D81BF8E23A00EA45A4 /* csCategories.h */,
+				4A7FC5D91BF8E23A00EA45A4 /* csCategories.m */,
+				4A7FC5DA1BF8E23A00EA45A4 /* csContact.h */,
+				4A7FC5DB1BF8E23A00EA45A4 /* csContact.m */,
+				4A7FC5DC1BF8E23A00EA45A4 /* csFoursquare.h */,
+				4A7FC5DD1BF8E23A00EA45A4 /* csFoursquare.m */,
+				4A7FC5DE1BF8E23A00EA45A4 /* csGroups.h */,
+				4A7FC5DF1BF8E23A00EA45A4 /* csGroups.m */,
+				4A7FC5E01BF8E23A00EA45A4 /* csHereNow.h */,
+				4A7FC5E11BF8E23A00EA45A4 /* csHereNow.m */,
+				4A7FC5E21BF8E23A00EA45A4 /* csIcon.h */,
+				4A7FC5E31BF8E23A00EA45A4 /* csIcon.m */,
+				4A7FC5E41BF8E23A00EA45A4 /* csItem.h */,
+				4A7FC5E51BF8E23A00EA45A4 /* csItem.m */,
+				4A7FC5E61BF8E23A00EA45A4 /* csLocation.h */,
+				4A7FC5E71BF8E23A00EA45A4 /* csLocation.m */,
+				4A7FC5E81BF8E23A00EA45A4 /* csMeta.h */,
+				4A7FC5E91BF8E23A00EA45A4 /* csMeta.m */,
+				4A7FC5EA1BF8E23A00EA45A4 /* csNotifications.h */,
+				4A7FC5EB1BF8E23A00EA45A4 /* csNotifications.m */,
+				4A7FC5EC1BF8E23A00EA45A4 /* csResponse.h */,
+				4A7FC5ED1BF8E23A00EA45A4 /* csResponse.m */,
+				4A7FC5EE1BF8E23A00EA45A4 /* csSpecials.h */,
+				4A7FC5EF1BF8E23A00EA45A4 /* csSpecials.m */,
+				4A7FC5F01BF8E23A00EA45A4 /* csStats.h */,
+				4A7FC5F11BF8E23A00EA45A4 /* csStats.m */,
+				4A7FC5F21BF8E23A00EA45A4 /* csVenueChains.h */,
+				4A7FC5F31BF8E23A00EA45A4 /* csVenueChains.m */,
+				4A7FC5F41BF8E23A00EA45A4 /* csVenues.h */,
+				4A7FC5F51BF8E23A00EA45A4 /* csVenues.m */,
+				4A7FC5F61BF8E23A00EA45A4 /* DataModels.h */,
+				4A7FC5D21BF8DEF000EA45A4 /* FSConverter.h */,
+				4A7FC5D31BF8DEF000EA45A4 /* FSConverter.m */,
+				4A7FC5D41BF8DEF000EA45A4 /* FSVenue.h */,
+				4A7FC5D51BF8DEF000EA45A4 /* FSVenue.m */,
+			);
+			name = Venues;
+			sourceTree = "<group>";
+		};
+		4A7FC6161BF95A8B00EA45A4 /* Nearby LocationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A7FC60F1BF956ED00EA45A4 /* MainScreenTests.m */,
+				4A7FC6171BF95A8B00EA45A4 /* Nearby_LocationsTests.m */,
+				4A7FC6191BF95A8B00EA45A4 /* Info.plist */,
+			);
+			path = "Nearby LocationsTests";
+			sourceTree = "<group>";
+		};
+		B14C2C298D2F093647B5678F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				571C8EE7735F5AFDA7C9C9F2 /* Pods-Nearby Locations.debug.xcconfig */,
+				5CDC77B8C9806811C9381833 /* Pods-Nearby Locations.release.xcconfig */,
+				C24D09808804C3F34A4F3613 /* Pods-Nearby LocationsTests.debug.xcconfig */,
+				30A4C0E1C9E13ACD20D02492 /* Pods-Nearby LocationsTests.release.xcconfig */,
+				87D952138D3BE6A3D8C96E5E /* Pods-Nearby LocationsUITests.debug.xcconfig */,
+				0AED3B8D311C571A55E2F17E /* Pods-Nearby LocationsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E68E1E3DAC255C9FC2120EBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3607E68C0D3E4ACFDD66D1 /* Pods_Nearby_Locations.framework */,
+				1C509C006D1C3F07841A604E /* Pods_Nearby_LocationsTests.framework */,
+				0DB4A9BBBD81D3311EE7F390 /* Pods_Nearby_LocationsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +372,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7FC5B81BF770FB00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby Locations" */;
 			buildPhases = (
+				A61A3CE0BD421346DB3BDF20 /* Check Pods Manifest.lock */,
 				4A7FC5871BF770FA00EA45A4 /* Sources */,
 				4A7FC5881BF770FA00EA45A4 /* Frameworks */,
 				4A7FC5891BF770FA00EA45A4 /* Resources */,
+				4ED15BC9A0DDE41C06483652 /* Embed Pods Frameworks */,
+				17C868855CE4C18F23AFBCC8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,31 +388,15 @@
 			productReference = 4A7FC58B1BF770FA00EA45A4 /* Nearby Locations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A7FC5A31BF770FB00EA45A4 /* Nearby LocationsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A7FC5BB1BF770FB00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby LocationsTests" */;
-			buildPhases = (
-				4A7FC5A01BF770FB00EA45A4 /* Sources */,
-				4A7FC5A11BF770FB00EA45A4 /* Frameworks */,
-				4A7FC5A21BF770FB00EA45A4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4A7FC5A61BF770FB00EA45A4 /* PBXTargetDependency */,
-			);
-			name = "Nearby LocationsTests";
-			productName = "Nearby LocationsTests";
-			productReference = 4A7FC5A41BF770FB00EA45A4 /* Nearby LocationsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		4A7FC5AE1BF770FB00EA45A4 /* Nearby LocationsUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A7FC5BE1BF770FB00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby LocationsUITests" */;
 			buildPhases = (
+				966F5254E4CD2B689D7697A9 /* Check Pods Manifest.lock */,
 				4A7FC5AB1BF770FB00EA45A4 /* Sources */,
 				4A7FC5AC1BF770FB00EA45A4 /* Frameworks */,
 				4A7FC5AD1BF770FB00EA45A4 /* Resources */,
+				3716193BD4AE22917744CDBF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +407,27 @@
 			productName = "Nearby LocationsUITests";
 			productReference = 4A7FC5AF1BF770FB00EA45A4 /* Nearby LocationsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4A7FC6141BF95A8A00EA45A4 /* Nearby LocationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7FC61C1BF95A8B00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby LocationsTests" */;
+			buildPhases = (
+				65622DE4A47AAB9293FB5750 /* Check Pods Manifest.lock */,
+				4A7FC6111BF95A8A00EA45A4 /* Sources */,
+				4A7FC6121BF95A8A00EA45A4 /* Frameworks */,
+				4A7FC6131BF95A8A00EA45A4 /* Resources */,
+				DB401174171565BE77BF797C /* Embed Pods Frameworks */,
+				116659EFE4BC292639E7E67B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A7FC61B1BF95A8B00EA45A4 /* PBXTargetDependency */,
+			);
+			name = "Nearby LocationsTests";
+			productName = "Nearby LocationsTests";
+			productReference = 4A7FC6151BF95A8A00EA45A4 /* Nearby LocationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,11 +441,11 @@
 					4A7FC58A1BF770FA00EA45A4 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
-					4A7FC5A31BF770FB00EA45A4 = {
+					4A7FC5AE1BF770FB00EA45A4 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 4A7FC58A1BF770FA00EA45A4;
 					};
-					4A7FC5AE1BF770FB00EA45A4 = {
+					4A7FC6141BF95A8A00EA45A4 = {
 						CreatedOnToolsVersion = 7.1.1;
 						TestTargetID = 4A7FC58A1BF770FA00EA45A4;
 					};
@@ -232,8 +465,8 @@
 			projectRoot = "";
 			targets = (
 				4A7FC58A1BF770FA00EA45A4 /* Nearby Locations */,
-				4A7FC5A31BF770FB00EA45A4 /* Nearby LocationsTests */,
 				4A7FC5AE1BF770FB00EA45A4 /* Nearby LocationsUITests */,
+				4A7FC6141BF95A8A00EA45A4 /* Nearby LocationsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,14 +482,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A7FC5A21BF770FB00EA45A4 /* Resources */ = {
+		4A7FC5AD1BF770FB00EA45A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A7FC5AD1BF770FB00EA45A4 /* Resources */ = {
+		4A7FC6131BF95A8A00EA45A4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,22 +498,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		116659EFE4BC292639E7E67B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nearby LocationsTests/Pods-Nearby LocationsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17C868855CE4C18F23AFBCC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nearby Locations/Pods-Nearby Locations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3716193BD4AE22917744CDBF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nearby LocationsUITests/Pods-Nearby LocationsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED15BC9A0DDE41C06483652 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nearby Locations/Pods-Nearby Locations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65622DE4A47AAB9293FB5750 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		966F5254E4CD2B689D7697A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A61A3CE0BD421346DB3BDF20 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB401174171565BE77BF797C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nearby LocationsTests/Pods-Nearby LocationsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A7FC5871BF770FA00EA45A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A7FC5961BF770FA00EA45A4 /* ViewController.m in Sources */,
+				4A7FC5FB1BF8E23A00EA45A4 /* csHereNow.m in Sources */,
+				4A7FC60D1BF9231C00EA45A4 /* Tools.m in Sources */,
+				4A7FC5D71BF8DEF000EA45A4 /* FSVenue.m in Sources */,
+				4A7FC5D61BF8DEF000EA45A4 /* FSConverter.m in Sources */,
+				4A7FC5F81BF8E23A00EA45A4 /* csContact.m in Sources */,
+				4A7FC5CC1BF7898700EA45A4 /* RoundView.m in Sources */,
+				4A7FC5F91BF8E23A00EA45A4 /* csFoursquare.m in Sources */,
+				4A7FC5FE1BF8E23A00EA45A4 /* csLocation.m in Sources */,
+				4A7FC6041BF8E23A00EA45A4 /* csVenueChains.m in Sources */,
+				4A7FC6011BF8E23A00EA45A4 /* csResponse.m in Sources */,
+				4A7FC5FC1BF8E23A00EA45A4 /* csIcon.m in Sources */,
+				4A7FC5C91BF7870600EA45A4 /* SelectVenueBackgroundView.m in Sources */,
+				4A7FC5FF1BF8E23A00EA45A4 /* csMeta.m in Sources */,
+				4A7FC5FD1BF8E23A00EA45A4 /* csItem.m in Sources */,
+				4A7FC5D01BF8D2EB00EA45A4 /* NetworkHelper.m in Sources */,
+				4A7FC6091BF8E26800EA45A4 /* NSString+Stuff.m in Sources */,
+				4A7FC6021BF8E23A00EA45A4 /* csSpecials.m in Sources */,
+				4A7FC6001BF8E23A00EA45A4 /* csNotifications.m in Sources */,
+				4A7FC6031BF8E23A00EA45A4 /* csStats.m in Sources */,
+				4A7FC5C51BF7764F00EA45A4 /* MainScreenViewController.m in Sources */,
 				4A7FC5931BF770FA00EA45A4 /* AppDelegate.m in Sources */,
 				4A7FC5901BF770FA00EA45A4 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A7FC5A01BF770FB00EA45A4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4A7FC5A91BF770FB00EA45A4 /* Nearby_LocationsTests.m in Sources */,
+				4A7FC5F71BF8E23A00EA45A4 /* csCategories.m in Sources */,
+				4A7FC5FA1BF8E23A00EA45A4 /* csGroups.m in Sources */,
+				4A7FC6051BF8E23A00EA45A4 /* csVenues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,18 +662,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A7FC6111BF95A8A00EA45A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7FC61F1BF95AA700EA45A4 /* MainScreenTests.m in Sources */,
+				4A7FC6181BF95A8B00EA45A4 /* Nearby_LocationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4A7FC5A61BF770FB00EA45A4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4A7FC58A1BF770FA00EA45A4 /* Nearby Locations */;
-			targetProxy = 4A7FC5A51BF770FB00EA45A4 /* PBXContainerItemProxy */;
-		};
 		4A7FC5B11BF770FB00EA45A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4A7FC58A1BF770FA00EA45A4 /* Nearby Locations */;
 			targetProxy = 4A7FC5B01BF770FB00EA45A4 /* PBXContainerItemProxy */;
+		};
+		4A7FC61B1BF95A8B00EA45A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A7FC58A1BF770FA00EA45A4 /* Nearby Locations */;
+			targetProxy = 4A7FC61A1BF95A8B00EA45A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,8 +788,10 @@
 		};
 		4A7FC5B91BF770FB00EA45A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571C8EE7735F5AFDA7C9C9F2 /* Pods-Nearby Locations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Nearby Locations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gtsifrikas.Nearby-Locations";
@@ -420,8 +801,10 @@
 		};
 		4A7FC5BA1BF770FB00EA45A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CDC77B8C9806811C9381833 /* Pods-Nearby Locations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Nearby Locations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gtsifrikas.Nearby-Locations";
@@ -429,32 +812,9 @@
 			};
 			name = Release;
 		};
-		4A7FC5BC1BF770FB00EA45A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Nearby LocationsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gtsifrikas.Nearby-LocationsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nearby Locations.app/Nearby Locations";
-			};
-			name = Debug;
-		};
-		4A7FC5BD1BF770FB00EA45A4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "Nearby LocationsTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "gtsifrikas.Nearby-LocationsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nearby Locations.app/Nearby Locations";
-			};
-			name = Release;
-		};
 		4A7FC5BF1BF770FB00EA45A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D952138D3BE6A3D8C96E5E /* Pods-Nearby LocationsUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Nearby LocationsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +827,7 @@
 		};
 		4A7FC5C01BF770FB00EA45A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AED3B8D311C571A55E2F17E /* Pods-Nearby LocationsUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Nearby LocationsUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,6 +835,32 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Nearby Locations";
 				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		4A7FC61D1BF95A8B00EA45A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24D09808804C3F34A4F3613 /* Pods-Nearby LocationsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nearby LocationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gtsifrikas.Nearby-LocationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nearby Locations.app/Nearby Locations";
+			};
+			name = Debug;
+		};
+		4A7FC61E1BF95A8B00EA45A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A4C0E1C9E13ACD20D02492 /* Pods-Nearby LocationsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Nearby LocationsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gtsifrikas.Nearby-LocationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nearby Locations.app/Nearby Locations";
 			};
 			name = Release;
 		};
@@ -496,14 +883,7 @@
 				4A7FC5BA1BF770FB00EA45A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4A7FC5BB1BF770FB00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby LocationsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A7FC5BC1BF770FB00EA45A4 /* Debug */,
-				4A7FC5BD1BF770FB00EA45A4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A7FC5BE1BF770FB00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby LocationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +892,16 @@
 				4A7FC5C01BF770FB00EA45A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7FC61C1BF95A8B00EA45A4 /* Build configuration list for PBXNativeTarget "Nearby LocationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7FC61D1BF95A8B00EA45A4 /* Debug */,
+				4A7FC61E1BF95A8B00EA45A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

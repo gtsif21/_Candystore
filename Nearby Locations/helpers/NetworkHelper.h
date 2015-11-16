@@ -9,5 +9,5 @@
 #import <AFNetworking/AFNetworking.h>
 
 @interface NetworkHelper : AFHTTPRequestOperationManager
-
++(NetworkHelper *)sharedInstance;
 @end
