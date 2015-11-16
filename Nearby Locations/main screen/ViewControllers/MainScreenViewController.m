@@ -176,7 +176,6 @@ idleAtCameraPosition:(GMSCameraPosition *)position {
 -(void)showAddressView
 {
     __weak typeof(self) weakSelf = self;
-    //stupid google map fire delegate methods in different thread than main
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.addressContentView layoutIfNeeded];
         self.usersAddressBottomConstraint.constant = 0;
@@ -190,7 +189,6 @@ idleAtCameraPosition:(GMSCameraPosition *)position {
 -(void)hideAddressView
 {
     __weak typeof(self) weakSelf = self;
-    //stupid google map fire delegate methods in different thread than main
     dispatch_async(dispatch_get_main_queue(), ^{
         if (self.usersAddressBottomConstraint.constant > -102) {
             [self.addressContentView layoutIfNeeded];
