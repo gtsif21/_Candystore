@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainScreenViewController.h
 //  Nearby Locations
 //
 //  Created by George Tsifrikas on 14/11/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainScreenViewController : UIViewController
 
 @end
-
